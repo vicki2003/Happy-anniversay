@@ -1,0 +1,179 @@
+body{
+  font-family:"Montserrat";
+}
+
+#title{
+  background-color: #40e0d0;
+  padding: 3% 8% 10% 8%;
+  color: #000;
+}
+
+
+
+.title-image{
+  height: 600px;
+  widows: 600px;
+  transform: rotate(12deg);
+  /* position: absolute; */
+  /* right: 20%; */
+
+}
+
+
+.title{
+  font:"Montserrat-Black";
+  font-size:3.5rem;
+  line-height: 1.5;
+}
+.titlebtn{
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+/* navbar */
+.css{
+  padding-bottom:4.5rem;
+
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* buttons */
+
+.picture-button{
+  margin: 5% 3%  5% 0;
+}
+/* title-image */
+
+/* section2 */
+#section2{
+  padding: 7% 15%;
+  background-color: #fff;
+  /* position: relative;
+  z-index: 1; */
+}
+h3{
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.features-image{
+  text-align: center;
+  padding:5%;
+}
+.icon{
+  color:#40e0d0;
+  margin-bottom: 2rem;
+}
+.icon:hover{
+  color: #FFB6C1;
+}
+
+/* section3 */
+
+#section3{
+  background-color:	#ffc0cb;
+  text-align: center;
+  padding: 3% 15%;
+}
+.section3text{
+  color: #fff;
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section3pic{
+  /* padding: 3%; */
+  width:40%;
+  border-radius: 100%;
+  margin: 20px;
+  }
+.buttonsec3{
+  margin: 5% 47% 5% 47%
+}
+/* section4 */
+
+#section4{
+  /* padding: 7% 15%; */
+  background-color: #fff;
+  text-align: center;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.headingsec4{
+  padding:3% 3%;
+}
+
+/* section5 */
+
+#section5{
+  padding: 3% 10%;
+  text-align: center;
+  margin: 0;
+
+}
+.letterbody{
+  padding: 3% 10%;
+}
+/* section6 */
+#section6{
+  background-color:#40e0d0;
+  text-align: center;
+  padding: 6% 3%;
+}
+.Contacticon{
+  margin: 2%;
+  font-size:6rem;
+  }
+.copywritesection{
+  padding-top: 6%;
+}
+/* section7 */
+#section7{
+  background-color:#ffc0cb;
+  padding: 3%;
+  text-align: center;
+}
+.section7text{
+  padding-bottom:3.3rem;
+}
+.section7image{
+  height: 70%;
+  width:70%;
+}
+.headingsec7{
+  color: #3e66a8;
+}
+#section8{
+  background-color: #fff;
+  text-align: center;
+  padding-top: 2.3rem;
+}
+.section8pic{
+  width: 300px;
+
+}
+.sec8heading{
+  font-size: 2.4;
+  padding-bottom: 4%;
+}
+
+
+@media (max-width:1024px){
+#title{
+  text-align: center;
+}
+.title-image{
+  position: static;
+  transform: rotate(0);
+
+}
